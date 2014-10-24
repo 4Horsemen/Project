@@ -1,15 +1,19 @@
 -----------10/23/14 T17 Weekly Update 1------------
 Completed tasks:
 *Create a weekly update template
-*
-*
+*Completed Rev1 HW 3
+*Rough draft of Black box design completed
 
 To be done next week:
-
-
+*Start ordering parts
+*finish Atmega328 research
+*finish LED Array research
+*finish Servo research
 
 Issues:
-
-
+*Not sure what circuitry would be needed for LED arrays
+*Not sure of motor/servo control circutry
+*Getting Patrick, Ahmad, and Thomas on to git
+*Getting the Atmega to respond to our preferences
 
 ---------------------------------------------------

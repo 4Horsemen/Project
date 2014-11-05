@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -7368,6 +7368,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="419.1" y1="-203.2" x2="419.1" y2="-121.92" width="0.1524" layer="97"/>
 <wire x1="419.1" y1="-121.92" x2="382.27" y2="-121.92" width="0.1524" layer="97"/>
 <text x="393.7" y="-162.56" size="1.778" layer="90">DC MOTORS</text>
+<text x="419.1" y="-236.22" size="1.778" layer="91">2</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="210.82" y="-86.36"/>
@@ -7596,13 +7597,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="264.16" y1="-73.66" x2="264.16" y2="-76.454" width="0.1524" layer="91"/>
 <pinref part="MOTOR_DRIVER_2" gate="P" pin="FIN"/>
 <wire x1="264.16" y1="-76.454" x2="264.16" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-193.04" x2="285.75" y2="-193.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PC5"/>
 <wire x1="264.16" y1="-76.454" x2="228.6" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="264.16" y="-76.454"/>
 </segment>
 </net>
 <net name="N$21" class="0">

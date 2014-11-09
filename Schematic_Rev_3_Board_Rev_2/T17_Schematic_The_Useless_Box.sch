@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9170,7 +9170,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$2" library="microchip-MCP125x-xxx" deviceset="LB1938FA-AH" device=""/>
 <part name="G1" library="battery" deviceset="AB9V" device=""/>
 <part name="U$3" library="SparkFun-DigitalIC" deviceset="INVERTING_SCHMITT_TRIGGER" device=""/>
-<part name="IC1" library="v-reg" deviceset="78LXX" device=""/>
+<part name="78L05" library="v-reg" deviceset="78LXX" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="0"/>
@@ -9267,7 +9267,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="U$2" gate="G$1" x="163.83" y="82.55"/>
 <instance part="G1" gate="G$1" x="-82.55" y="223.52"/>
 <instance part="U$3" gate="G$1" x="-29.21" y="223.52"/>
-<instance part="IC1" gate="1" x="21.59" y="226.06"/>
+<instance part="78L05" gate="1" x="21.59" y="226.06"/>
 <instance part="C1" gate="G$1" x="39.37" y="215.9"/>
 <instance part="C2" gate="G$1" x="6.35" y="215.9"/>
 <instance part="R1" gate="G$1" x="-57.15" y="223.52"/>
@@ -9368,7 +9368,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="39.37" y1="210.82" x2="39.37" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="1" pin="GND"/>
+<pinref part="78L05" gate="1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="21.59" y1="218.44" x2="21.59" y2="208.28" width="0.1524" layer="91"/>
 </segment>
@@ -9504,7 +9504,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="6.35" y1="218.44" x2="6.35" y2="217.17" width="0.1524" layer="91"/>
 <wire x1="6.35" y1="218.44" x2="6.35" y2="226.06" width="0.1524" layer="91"/>
 <junction x="6.35" y="218.44"/>
-<pinref part="IC1" gate="1" pin="IN"/>
+<pinref part="78L05" gate="1" pin="IN"/>
 <wire x1="6.35" y1="226.06" x2="13.97" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="TP13" gate="G$1" pin="TP"/>
@@ -9579,7 +9579,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="186.69" y="63.5"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="1" pin="OUT"/>
+<pinref part="78L05" gate="1" pin="OUT"/>
 <wire x1="29.21" y1="226.06" x2="39.37" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="39.37" y1="226.06" x2="39.37" y2="218.44" width="0.1524" layer="91"/>

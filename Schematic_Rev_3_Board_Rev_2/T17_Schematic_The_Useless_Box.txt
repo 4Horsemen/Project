@@ -1,0 +1,35 @@
+Partlist exported from C:/Users/Brian/Documents/GitHub/tut/Schematic_Rev_3_Board_Rev_2/T17_Schematic_The_Useless_Box.sch at 12/11/2014 2:39:47 PM
+
+Part            Value                 Device                Package            Description                                 PROD_ID    TP_SIGNAL_NAME VALUE     
+9V-BATTERY-CLIP M02LOCK               M02LOCK               1X02_LOCK          Standard 2-pin 0.1" header. Use with                                            
+C1              10uF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C2              10uF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C3              10nF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C4              10nF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C5              10nF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C6              10uF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C7              10uF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C8              10nF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C9              10nF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C10             22pF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C11             22pF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+C12             10nF                  C-EUC0805             C0805              CAPACITOR, European symbol                                                      
+IC1                                   V_REG_78XX-TO-220     TO-220-ALT         Voltage Regulator                                                               
+J1              AVR_SPI_PRG_6NS       AVR_SPI_PRG_6NS       2X3-NS             AVR ISP 6 Pin                                                                   
+JP3             ARM_SERVO             M03PTH                1X03               Header 3                                                                        
+JP4             LID_SERVO             M03PTH                1X03               Header 3                                                                        
+L-MOTOR         M02LOCK               M02LOCK               1X02_LOCK          Standard 2-pin 0.1" header. Use with                                            
+PROGRAMMING                           M06NO_SILK_FEMALE_PTH 1X06_NO_SILK       Header 6                                    CONN-08437                          
+Q1              16MHz                 XTAL/S                QS                 CRYSTAL                                                                         
+R-MOTOR         M02LOCK               M02LOCK               1X02_LOCK          Standard 2-pin 0.1" header. Use with                                            
+R1              0                     R-EU_R0805            R0805              RESISTOR, European symbol                                                       
+R2              10K                   R-EU_R0805            R0805              RESISTOR, European symbol                                                       
+R3              10K                   R-EU_R0805            R0805              RESISTOR, European symbol                                                       
+R4              10K                   R-EU_R0805            R0805              RESISTOR, European symbol                                                       
+R5              10K                   R-EU_R0805            R0805              RESISTOR, European symbol                                                       
+R6              10K                   R-EU_R0805            R0805              RESISTOR, European symbol                                                       
+S1              SWITCH-MOMENTARY-2SMD SWITCH-MOMENTARY-2SMD TACTILE-SWITCH-SMD Various NO switches- pushbuttons, reed, etc SWCH-08247                          
+TOGGLE          M02LOCK               M02LOCK               1X02_LOCK          Standard 2-pin 0.1" header. Use with                                            
+U$1             LB1938FA-AH           LB1938FA-AH           MSOP8                                                                                              
+U$2             LB1938FA-AH           LB1938FA-AH           MSOP8                                                                                              
+U1              ATMEGA328P            ATMEGA328_SMT         TQFP32-08          32-Pin Atmega328 part                       IC-09069                  ATMEGA328P
